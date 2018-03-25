@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.bellevue.cs470.madlibs.fillIn">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="@string/string_tv1" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/string_tv2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ok" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_see_story"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_see_story"/>
+
+</android.widget.LinearLayout>
